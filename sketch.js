@@ -27,7 +27,7 @@ function setup() {
 function draw() {
   background(220);
   
-  if(keyDown("space")) {
+  if(keyDown("space")&&trex.y>190) {
     trex.velocityY = -10;
   }
   
